@@ -28,7 +28,6 @@ var ENV = {
 ```
 
 ### Where to find stuff
-
 - **API Key** can be found on application settings page.
 - [**Token**](https://raygun.com/docs/workflow/external-access-token)
 - **Prefix** is url pointing to where your files are stored (e.g `https://s3-eu-west-1.amazonaws.com/<bucketName>/`).
@@ -46,24 +45,12 @@ sourcemaps: {
     }
 
 ```
-### Linting
 
-- `npm run lint:hbs`
-- `npm run lint:js`
-- `npm run lint:js -- --fix`
+Contributing
+------------------------------------------------------------------------------
 
-### Running tests
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
-- `ember test` – Runs the test suite on the current Ember version
-- `ember test --server` – Runs the test suite in "watch mode"
-- `ember try:each` – Runs the test suite against multiple Ember versions
-
-### Running the dummy application
-
-- `ember serve`
-- Visit the dummy application at [http://localhost:4200](http://localhost:4200).
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
 ### License
 ------------------------------------------------------------------------------
