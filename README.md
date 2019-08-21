@@ -4,8 +4,8 @@
 
 Ember-cli-deploy plugin to upload source maps and submit deployment information to [Raygun](http://raygun.com).
 
+
 ## Installation
-------------------------------------------------------------------------------
 
 `ember install ember-cli-deploy-raygun`
 
@@ -63,7 +63,9 @@ sourcemaps: {
 - `ember serve`
 - Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
 ### License
 ------------------------------------------------------------------------------
