@@ -1,5 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/aklkv/ember-cli-deploy-raygun/badges/gpa.svg)](https://codeclimate.com/github/aklkv/ember-cli-deploy-raygun)
-[![Issue Count](https://codeclimate.com/github/aklkv/ember-cli-deploy-raygun/badges/issue_count.svg)](https://codeclimate.com/github/aklkv/ember-cli-deploy-raygun)
+[![Issue Count](https://codeclimate.com/github/ololabs/ember-cli-deploy-raygun/badges/issue_count.svg)](https://codeclimate.com/github/ololabs/ember-cli-deploy-raygun)
 # Ember-cli-deploy-raygun
 
 Ember-cli-deploy plugin to upload source maps and submit deployment information to [Raygun](http://raygun.com).
