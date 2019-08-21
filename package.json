@@ -14,12 +14,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
-    "lint:hbs": "ember-template-lint .",
-    "lint:js": "eslint .",
-    "start": "ember serve",
-    "test": "ember test",
-    "test:all": "ember try:each"
+    "lint:js": "eslint ."
   },
   "dependencies": {
     "ember-cli-deploy-plugin": "^0.2.9",
@@ -28,7 +23,8 @@
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "ember-cli": "~3.12.0"
+    "ember-cli": "~3.12.0",
+    "eslint": "^6.2.1"
   },
   "engines": {
     "node": "8.* || >= 10.*"
