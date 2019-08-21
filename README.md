@@ -21,6 +21,7 @@ var ENV = {
     token: '', // Raygun External Access Token
     prefix: '', // optional url prefix for (used for sourcemaps only)
     appId: '', // optional application id (used for sourcemaps only)
+    ownerName: '', // optional owner name instead of commit author
   },
   ...
 };

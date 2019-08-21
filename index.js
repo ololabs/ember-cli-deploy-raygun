@@ -35,7 +35,7 @@ module.exports = {
             body: {
               apiKey: this.readConfig('key'),
               version: this.readConfig('revisionKey'),
-              ownerName: 'olo'
+              ownerName: this.readConfig('ownerName')
             }
           })
           .then(() => {
