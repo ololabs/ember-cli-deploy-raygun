@@ -1,11 +1,10 @@
-[![Code Climate](https://codeclimate.com/github/aklkv/ember-cli-deploy-raygun/badges/gpa.svg)](https://codeclimate.com/github/aklkv/ember-cli-deploy-raygun)
-[![Issue Count](https://codeclimate.com/github/aklkv/ember-cli-deploy-raygun/badges/issue_count.svg)](https://codeclimate.com/github/aklkv/ember-cli-deploy-raygun)
+[![Issue Count](https://codeclimate.com/github/ololabs/ember-cli-deploy-raygun/badges/issue_count.svg)](https://codeclimate.com/github/ololabs/ember-cli-deploy-raygun)
 # Ember-cli-deploy-raygun
 
 Ember-cli-deploy plugin to upload source maps and submit deployment information to [Raygun](http://raygun.com).
 
+
 ## Installation
-------------------------------------------------------------------------------
 
 `ember install ember-cli-deploy-raygun`
 
@@ -21,6 +20,7 @@ var ENV = {
     token: '', // Raygun External Access Token
     prefix: '', // optional url prefix for (used for sourcemaps only)
     appId: '', // optional application id (used for sourcemaps only)
+    ownerName: '', // optional owner name instead of commit author
   },
   ...
 };
@@ -63,7 +63,9 @@ sourcemaps: {
 - `ember serve`
 - Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
 ### License
 ------------------------------------------------------------------------------
